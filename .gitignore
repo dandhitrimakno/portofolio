@@ -1,0 +1,34 @@
+# ===== Sistem operasi =====
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== Log & file sementara =====
+*.log
+*.tmp
+*.bak
+
+# ===== Dependencies (kalau nanti pakai npm/tools) =====
+node_modules/
+
+# ===== File rahasia =====
+.env
+.env.*
+
+# ===== Hasil build (kalau nanti pakai bundler) =====
+dist/
+build/
+.cache/
+# ai agent
+.agent/
+.claude/
+CLAUDE.md
+AGENT.md
