@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "/assets/Dandi_Trimakno_CV_2026_SENIOR_EN_Oct2026.pdf",
+      "destination": "/assets/Dandhi_Trimakno_CV_2026_SENIOR_EN_Oct2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Dandi_Trimakno_CV_2026_LEAD_EN_Oct2026.pdf",
+      "destination": "/assets/Dandhi_Trimakno_CV_2026_LEAD_EN_Oct2026.pdf",
+      "permanent": true
+    },
+    {
+      "source": "/assets/Dandi_Trimakno_CV_2026_MID_EN_Oct2026.pdf",
+      "destination": "/assets/Dandhi_Trimakno_CV_2026_MID_EN_Oct2026.pdf",
+      "permanent": true
+    }
+  ]
+}

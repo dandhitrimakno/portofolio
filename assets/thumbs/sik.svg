@@ -18,7 +18,7 @@
 <path d="M90 444H670" stroke="#E4E9E8" stroke-width="2"/>
 <rect x="98" y="468" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="468" width="162" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="468" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="464" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
 <g stroke="#1A2330" stroke-width="3"><rect x="780" y="60" width="350" height="150" rx="14" fill="#F2C14E"/><rect x="780" y="250" width="350" height="130" rx="14" fill="#1A2330"/><rect x="780" y="420" width="350" height="128" rx="14" fill="#fff"/></g>
-<text x="955" y="110" font-size="22" font-weight="600" fill="#1A2330" text-anchor="middle">Active users</text>
+<text x="955" y="110" font-size="22" font-weight="600" fill="#1A2330" text-anchor="middle">Reported users</text>
 <text x="955" y="170" font-size="44" font-weight="800" fill="#1A2330" text-anchor="middle" font-family="ui-monospace,Menlo,monospace">30,000–60,000</text>
 <text x="955" y="306" font-size="34" font-weight="800" fill="#fff" text-anchor="middle">Redis cache</text><text x="955" y="344" font-size="20" fill="#F2C14E" text-anchor="middle">frequently used endpoints</text>
 <text x="955" y="474" font-size="26" font-weight="800" fill="#1A2330" text-anchor="middle">Optimized queries</text><text x="955" y="508" font-size="19" fill="#4F5A68" text-anchor="middle">indexes · EXPLAIN · large database</text>
