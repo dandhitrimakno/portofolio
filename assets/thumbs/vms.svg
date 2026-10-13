@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<text x="60" y="80" font-size="26" font-weight="800" fill="#1A2330">Vendor management workflow</text>
+<g stroke="#1A2330" stroke-width="3">
+<rect x="60" y="130" width="230" height="170" rx="14" fill="#fff"/><rect x="340" y="130" width="230" height="170" rx="14" fill="#fff"/><rect x="620" y="130" width="230" height="170" rx="14" fill="#F2C14E"/><rect x="900" y="130" width="240" height="170" rx="14" fill="#0E6E62"/>
+</g>
+<g font-size="26" font-weight="800" text-anchor="middle"><text x="175" y="186" fill="#1A2330">Register</text><text x="455" y="186" fill="#1A2330">Submit</text><text x="735" y="186" fill="#1A2330">Technical</text><text x="735" y="216" fill="#1A2330">review</text><text x="1020" y="186" fill="#fff">Approved</text></g>
+<g font-size="17" fill="#4F5A68" text-anchor="middle"><text x="175" y="222">vendor profile</text><text x="455" y="222">documents</text></g>
+<text x="1020" y="222" font-size="17" fill="#E3F1EF" text-anchor="middle">vendor active</text>
+<rect x="95" y="244" width="160" height="12" rx="6" fill="#CBD3D1"/><rect x="95" y="268" width="110" height="12" rx="6" fill="#CBD3D1"/><rect x="375" y="244" width="160" height="12" rx="6" fill="#CBD3D1"/><rect x="375" y="268" width="90" height="12" rx="6" fill="#CBD3D1"/>
+<circle cx="735" cy="266" r="16" fill="#fff" stroke="#1A2330" stroke-width="3"/><path d="M727 266l6 6 11-12" stroke="#0E6E62" stroke-width="4" fill="none"/>
+<g stroke="#1A2330" stroke-width="4" fill="none"><path d="M290 215H336M570 215H616M850 215H896"/><path d="M336 215l-12-9m12 9l-12 9M616 215l-12-9m12 9l-12 9M896 215l-12-9m12 9l-12 9"/></g>
+<rect x="60" y="360" width="520" height="170" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<text x="90" y="402" font-size="22" font-weight="800" fill="#1A2330">Project PIC owned</text>
+<g font-size="20" fill="#1A2330"><circle cx="100" cy="440" r="7" fill="#0E6E62"/><text x="120" y="447">architecture decisions</text><circle cx="100" cy="474" r="7" fill="#0E6E62"/><text x="120" y="481">task distribution and technical review</text><circle cx="100" cy="508" r="7" fill="#0E6E62"/><text x="120" y="515">deployment support</text></g>
+<rect x="640" y="360" width="500" height="170" rx="14" fill="#1A2330" stroke="#1A2330" stroke-width="3"/>
+<text x="670" y="402" font-size="22" font-weight="800" fill="#fff">Team and delivery</text>
+<g font-size="20" fill="#E4E9E8"><text x="670" y="446">2 developers · 2024</text><text x="670" y="480">about 3–4 months</text></g>
+<rect x="960" y="430" width="150" height="62" rx="12" fill="#F2C14E"/><text x="1035" y="458" font-size="18" font-weight="800" fill="#1A2330" text-anchor="middle">PHPUnit</text><text x="1035" y="480" font-size="18" font-weight="800" fill="#1A2330" text-anchor="middle">+ Pest</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<text x="60" y="80" font-size="26" font-weight="800" fill="#1A2330">Modular architecture · Laravel 12 · PHP 8.4</text>
+<rect x="60" y="116" width="760" height="404" rx="16" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<g stroke="#1A2330" stroke-width="3">
+<rect x="90" y="150" width="215" height="100" rx="12" fill="#fff"/><rect x="332" y="150" width="215" height="100" rx="12" fill="#fff"/><rect x="574" y="150" width="215" height="100" rx="12" fill="#fff"/>
+<rect x="90" y="276" width="699" height="86" rx="12" fill="#F2C14E"/>
+<rect x="90" y="388" width="338" height="100" rx="12" fill="#1A2330"/><rect x="451" y="388" width="338" height="100" rx="12" fill="#fff"/>
+</g>
+<g font-size="24" font-weight="800" fill="#1A2330" text-anchor="middle"><text x="197" y="196">Module A</text><text x="439" y="196">Module B</text><text x="681" y="196">Module C</text><text x="440" y="328">Service-oriented flow</text><text x="620" y="446">Database</text></g>
+<g font-size="16" fill="#4F5A68" text-anchor="middle"><text x="197" y="226">own routes and logic</text><text x="439" y="226">own routes and logic</text><text x="681" y="226">own routes and logic</text></g>
+<text x="259" y="446" font-size="24" font-weight="800" fill="#fff" text-anchor="middle">Shared services</text>
+<g stroke="#0E6E62" stroke-width="4" fill="none"><path d="M197 250V276M439 250V276M681 250V276M259 362V388M620 362V388"/></g>
+<g stroke="#1A2330" stroke-width="3">
+<rect x="880" y="116" width="260" height="110" rx="14" fill="#0E6E62"/><rect x="880" y="256" width="260" height="110" rx="14" fill="#fff"/><rect x="880" y="396" width="260" height="124" rx="14" fill="#fff"/>
+</g>
+<text x="1010" y="164" font-size="26" font-weight="800" fill="#fff" text-anchor="middle">REST API</text><text x="1010" y="196" font-size="17" fill="#E3F1EF" text-anchor="middle">for web and integrations</text>
+<text x="1010" y="304" font-size="26" font-weight="800" fill="#1A2330" text-anchor="middle">Dashboards</text><g fill="#0E6E62"><rect x="948" y="326" width="22" height="26"/><rect x="980" y="318" width="22" height="34" fill="#F2C14E"/><rect x="1012" y="328" width="22" height="24"/><rect x="1044" y="314" width="22" height="38"/></g>
+<text x="1010" y="444" font-size="26" font-weight="800" fill="#1A2330" text-anchor="middle">Integrations</text><text x="1010" y="476" font-size="17" fill="#4F5A68" text-anchor="middle">external systems</text>
+<g stroke="#1A2330" stroke-width="4" fill="none"><path d="M820 170H880M820 311H880M820 458H880"/></g>
+</svg>

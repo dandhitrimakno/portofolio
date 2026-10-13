@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<rect x="70" y="60" width="620" height="488" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<rect x="70" y="60" width="620" height="58" rx="14" fill="#1A2330"/><rect x="70" y="90" width="620" height="28" fill="#1A2330"/>
+<text x="98" y="98" font-size="24" font-weight="700" fill="#fff">Employee records</text>
+<g font-size="17" font-weight="700" fill="#4F5A68"><text x="98" y="152">ID</text><text x="190" y="152">Name</text><text x="420" y="152">Unit</text><text x="590" y="152">Status</text></g>
+<path d="M90 164H670" stroke="#1A2330" stroke-width="2"/>
+<rect x="98" y="180" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="180" width="120" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="180" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="176" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<path d="M90 204H670" stroke="#E4E9E8" stroke-width="2"/>
+<rect x="98" y="228" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="228" width="157" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="228" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="224" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<path d="M90 252H670" stroke="#E4E9E8" stroke-width="2"/>
+<rect x="98" y="276" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="276" width="194" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="276" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="272" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<path d="M90 300H670" stroke="#E4E9E8" stroke-width="2"/>
+<rect x="98" y="324" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="324" width="141" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="324" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="320" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<path d="M90 348H670" stroke="#E4E9E8" stroke-width="2"/>
+<rect x="98" y="372" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="372" width="178" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="372" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="368" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<path d="M90 396H670" stroke="#E4E9E8" stroke-width="2"/>
+<rect x="98" y="420" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="420" width="125" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="420" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="416" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<path d="M90 444H670" stroke="#E4E9E8" stroke-width="2"/>
+<rect x="98" y="468" width="56" height="12" rx="6" fill="#CBD3D1"/><rect x="190" y="468" width="162" height="12" rx="6" fill="#CBD3D1"/><rect x="420" y="468" width="100" height="12" rx="6" fill="#CBD3D1"/><rect x="590" y="464" width="64" height="22" rx="11" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2"/>
+<g stroke="#1A2330" stroke-width="3"><rect x="780" y="60" width="350" height="150" rx="14" fill="#F2C14E"/><rect x="780" y="250" width="350" height="130" rx="14" fill="#1A2330"/><rect x="780" y="420" width="350" height="128" rx="14" fill="#fff"/></g>
+<text x="955" y="110" font-size="22" font-weight="600" fill="#1A2330" text-anchor="middle">Active users</text>
+<text x="955" y="170" font-size="44" font-weight="800" fill="#1A2330" text-anchor="middle" font-family="ui-monospace,Menlo,monospace">30,000–60,000</text>
+<text x="955" y="306" font-size="34" font-weight="800" fill="#fff" text-anchor="middle">Redis cache</text><text x="955" y="344" font-size="20" fill="#F2C14E" text-anchor="middle">frequently used endpoints</text>
+<text x="955" y="474" font-size="26" font-weight="800" fill="#1A2330" text-anchor="middle">Optimized queries</text><text x="955" y="508" font-size="19" fill="#4F5A68" text-anchor="middle">indexes · EXPLAIN · large database</text>
+<g stroke="#0E6E62" stroke-width="4" fill="none" stroke-dasharray="8 8"><path d="M955 210V250"/><path d="M955 380V420"/></g>
+</svg>

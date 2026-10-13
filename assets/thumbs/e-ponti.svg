@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<g stroke="#1A2330" stroke-width="3">
+<rect x="70" y="214" width="260" height="170" rx="14" fill="#fff"/><rect x="420" y="214" width="260" height="170" rx="14" fill="#1A2330"/>
+</g>
+<text x="200" y="285" font-size="34" font-weight="800" fill="#1A2330" text-anchor="middle">Mobile</text><text x="200" y="325" font-size="34" font-weight="800" fill="#1A2330" text-anchor="middle">app</text>
+<text x="550" y="285" font-size="34" font-weight="800" fill="#fff" text-anchor="middle">REST API</text><text x="550" y="325" font-size="22" fill="#F2C14E" text-anchor="middle" font-family="ui-monospace,Menlo,monospace">/api/v1/...</text>
+<g stroke="#1A2330" stroke-width="4" fill="none"><path d="M330 270H416"/><path d="M416 270l-14-10m14 10l-14 10"/><path d="M330 340H416" stroke-dasharray="8 8"/></g>
+<g stroke="#0E6E62" stroke-width="4" fill="none"><path d="M680 299H760"/><path d="M760 299l-14-10m14 10l-14 10"/></g>
+<rect x="770" y="236" width="150" height="126" rx="14" fill="#F2C14E" stroke="#1A2330" stroke-width="3"/>
+<text x="845" y="290" font-size="30" font-weight="800" fill="#1A2330" text-anchor="middle">FCM</text><text x="845" y="326" font-size="17" fill="#1A2330" text-anchor="middle">Firebase</text>
+<g stroke="#0E6E62" stroke-width="4" fill="none"><path d="M920 299H980"/><path d="M980 299l-14-10m14 10l-14 10"/></g>
+<rect x="990" y="156" width="150" height="296" rx="24" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<rect x="1010" y="196" width="110" height="64" rx="10" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2.5"/><circle cx="1030" cy="218" r="7" fill="#0E6E62"/><rect x="1044" y="212" width="64" height="8" rx="4" fill="#0E6E62"/><rect x="1018" y="234" width="86" height="8" rx="4" fill="#4F5A68" opacity=".5"/>
+<rect x="1010" y="276" width="110" height="14" rx="7" fill="#CBD3D1"/><rect x="1010" y="304" width="80" height="14" rx="7" fill="#CBD3D1"/>
+</svg>

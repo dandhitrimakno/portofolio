@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<rect x="50" y="70" width="520" height="470" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<rect x="50" y="70" width="520" height="44" rx="14" fill="#1A2330"/><rect x="50" y="96" width="520" height="18" fill="#1A2330"/>
+<circle cx="76" cy="92" r="6" fill="#5a6677"/><circle cx="96" cy="92" r="6" fill="#5a6677"/><circle cx="116" cy="92" r="6" fill="#5a6677"/><text x="310" y="98" font-size="16" fill="#CBD3D1" text-anchor="middle" font-family="ui-monospace,Menlo,monospace">public site</text>
+<rect x="74" y="136" width="472" height="150" rx="10" fill="#E3F1EF"/><text x="100" y="196" font-size="30" font-weight="800" fill="#0E6E62">Public information</text><rect x="100" y="216" width="260" height="12" rx="6" fill="#0E6E62" opacity=".4"/><rect x="100" y="240" width="200" height="12" rx="6" fill="#0E6E62" opacity=".4"/>
+<g stroke="#CBD3D1" stroke-width="2"><rect x="74" y="306" width="148" height="110" rx="10" fill="#fff"/><rect x="236" y="306" width="148" height="110" rx="10" fill="#fff"/><rect x="398" y="306" width="148" height="110" rx="10" fill="#fff"/></g>
+<g fill="#CBD3D1"><rect x="90" y="326" width="116" height="40" rx="6"/><rect x="252" y="326" width="116" height="40" rx="6"/><rect x="414" y="326" width="116" height="40" rx="6"/><rect x="90" y="382" width="90" height="10" rx="5"/><rect x="252" y="382" width="90" height="10" rx="5"/><rect x="414" y="382" width="90" height="10" rx="5"/></g>
+<rect x="74" y="438" width="180" height="46" rx="10" fill="#0E6E62"/><text x="164" y="468" font-size="19" font-weight="700" fill="#fff" text-anchor="middle">Apply online</text>
+<rect x="630" y="70" width="520" height="470" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<rect x="630" y="70" width="130" height="470" rx="14" fill="#1A2330"/><rect x="740" y="70" width="20" height="470" fill="#1A2330"/>
+<text x="695" y="112" font-size="16" font-weight="800" fill="#F2C14E" text-anchor="middle">ADMIN</text>
+<g fill="#5a6677"><rect x="652" y="140" width="86" height="12" rx="6"/><rect x="652" y="176" width="70" height="12" rx="6"/><rect x="652" y="212" width="90" height="12" rx="6"/><rect x="652" y="248" width="60" height="12" rx="6"/></g>
+<g stroke="#1A2330" stroke-width="3"><rect x="780" y="96" width="170" height="86" rx="10" fill="#F2C14E"/><rect x="964" y="96" width="170" height="86" rx="10" fill="#fff"/></g>
+<text x="865" y="146" font-size="19" font-weight="800" fill="#1A2330" text-anchor="middle">Dashboard 1</text><text x="1049" y="146" font-size="19" font-weight="800" fill="#1A2330" text-anchor="middle">Dashboard 2</text>
+<g stroke="#1A2330" stroke-width="3" fill="#fff"><rect x="780" y="204" width="354" height="170" rx="10"/><rect x="780" y="392" width="354" height="130" rx="10"/></g>
+<g fill="#0E6E62"><rect x="806" y="310" width="36" height="46" rx="4"/><rect x="858" y="276" width="36" height="80" rx="4"/><rect x="910" y="296" width="36" height="60" rx="4"/><rect x="962" y="244" width="36" height="112" rx="4" fill="#F2C14E" stroke="#1A2330" stroke-width="2"/><rect x="1014" y="266" width="36" height="90" rx="4"/><rect x="1066" y="230" width="36" height="126" rx="4"/></g>
+<g fill="#CBD3D1"><rect x="800" y="414" width="300" height="12" rx="6"/><rect x="800" y="444" width="240" height="12" rx="6"/><rect x="800" y="474" width="280" height="12" rx="6"/></g>
+<text x="600" y="580" font-size="19" fill="#4F5A68" text-anchor="middle">Laravel 12 · PHP 8.4</text>
+</svg>

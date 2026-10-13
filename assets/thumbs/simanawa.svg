@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<g stroke="#1A2330" stroke-width="3">
+<rect x="60" y="190" width="220" height="228" rx="14" fill="#fff"/>
+<rect x="360" y="190" width="220" height="228" rx="14" fill="#1A2330"/>
+<rect x="660" y="190" width="220" height="228" rx="14" fill="#F2C14E"/>
+</g>
+<text x="170" y="232" font-size="24" font-weight="800" fill="#1A2330" text-anchor="middle">Mobile app</text>
+<rect x="90" y="258" width="160" height="62" rx="10" fill="#E3F1EF" stroke="#0E6E62" stroke-width="2.5"/><text x="170" y="285" font-size="17" font-weight="700" fill="#0E6E62" text-anchor="middle">Pay invoice</text><text x="170" y="307" font-size="15" fill="#4F5A68" text-anchor="middle">e-wallet / bank transfer</text>
+<rect x="90" y="336" width="160" height="50" rx="10" fill="#fff" stroke="#CBD3D1" stroke-width="2"/><text x="170" y="368" font-size="16" fill="#4F5A68" text-anchor="middle">Payment status</text>
+<text x="470" y="232" font-size="24" font-weight="800" fill="#fff" text-anchor="middle">REST API</text>
+<g font-size="16" fill="#F2C14E" text-anchor="middle" font-family="ui-monospace,Menlo,monospace"><text x="470" y="272">POST /invoices</text><text x="470" y="304">POST /webhooks</text><text x="470" y="336">GET  /payments</text></g>
+<text x="470" y="384" font-size="16" fill="#CBD3D1" text-anchor="middle">scheduled job: failed / pending</text>
+<text x="770" y="232" font-size="30" font-weight="800" fill="#1A2330" text-anchor="middle">Xendit</text><text x="770" y="264" font-size="17" fill="#1A2330" text-anchor="middle">payment gateway</text>
+<g font-size="15" font-weight="700" text-anchor="middle"><rect x="690" y="290" width="76" height="28" rx="14" fill="#fff"/><text x="728" y="310" fill="#4F5A68">pending</text><rect x="774" y="290" width="76" height="28" rx="14" fill="#0E6E62"/><text x="812" y="310" fill="#fff">paid</text><rect x="730" y="330" width="80" height="28" rx="14" fill="#1A2330"/><text x="770" y="350" fill="#fff">failed</text></g>
+<g stroke="#1A2330" stroke-width="4" fill="none"><path d="M280 270H356"/><path d="M356 270l-14-10m14 10l-14 10"/><path d="M580 270H656"/><path d="M656 270l-14-10m14 10l-14 10"/></g>
+<g stroke="#0E6E62" stroke-width="4" fill="none" stroke-dasharray="8 8"><path d="M770 418V470H470V418"/></g>
+<text x="620" y="462" font-size="18" font-weight="700" fill="#0E6E62" text-anchor="middle">webhook callback</text>
+<rect x="950" y="210" width="190" height="188" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<g fill="none" stroke="#1A2330" stroke-width="3.5"><path d="M1045 244c-22 0-36 16-36 38v26l-12 18h96l-12-18v-26c0-22-14-38-36-38z" fill="#F2C14E"/><path d="M1030 340a15 15 0 0 0 30 0"/></g>
+<text x="1045" y="382" font-size="20" font-weight="800" fill="#1A2330" text-anchor="middle">FCM push</text>
+<g stroke="#0E6E62" stroke-width="4" fill="none"><path d="M880 300H946"/><path d="M946 300l-14-10m14 10l-14 10"/></g>
+</svg>

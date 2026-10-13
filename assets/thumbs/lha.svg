@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif"><rect width="1200" height="608" fill="#E4E9E8"/><g stroke="#CBD3D1" stroke-width="1"><path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608"/></g>
+<text x="60" y="76" font-size="24" font-weight="800" fill="#1A2330">Laravel 13 · PHP 8.5 API</text>
+<g stroke="#1A2330" stroke-width="3">
+<rect x="60" y="100" width="420" height="76" rx="12" fill="#fff"/><rect x="60" y="196" width="420" height="76" rx="12" fill="#fff"/><rect x="60" y="292" width="420" height="76" rx="12" fill="#F2C14E"/><rect x="60" y="388" width="420" height="76" rx="12" fill="#1A2330"/>
+</g>
+<g font-size="28" font-weight="800" text-anchor="middle"><text x="270" y="148" fill="#1A2330">Controller</text><text x="270" y="244" fill="#1A2330">Form Request</text><text x="270" y="340" fill="#1A2330">Service</text><text x="270" y="436" fill="#fff">Repository</text></g>
+<g font-size="17" fill="#4F5A68" text-anchor="middle"><text x="270" y="168">thin, calls one service</text><text x="270" y="264">validates input</text></g><text x="270" y="360" font-size="17" fill="#1A2330" text-anchor="middle">business logic</text><text x="270" y="456" font-size="17" fill="#CBD3D1" text-anchor="middle">data access</text>
+<g stroke="#0E6E62" stroke-width="4" fill="none"><path d="M270 176V196M270 272V292M270 368V388"/></g>
+<rect x="560" y="60" width="580" height="488" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+<rect x="560" y="60" width="580" height="62" rx="14" fill="#0E6E62"/><rect x="560" y="100" width="580" height="22" fill="#0E6E62"/>
+<text x="590" y="102" font-size="26" font-weight="800" fill="#fff">Swagger / OpenAPI</text>
+<rect x="590" y="152" width="520" height="56" rx="10" fill="#F7F9F8" stroke="#CBD3D1" stroke-width="2"/><rect x="604" y="164" width="78" height="32" rx="7" fill="#0E6E62"/><text x="643" y="186" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">GET</text><rect x="700" y="174" width="150" height="12" rx="6" fill="#CBD3D1"/>
+<rect x="590" y="228" width="520" height="56" rx="10" fill="#F7F9F8" stroke="#CBD3D1" stroke-width="2"/><rect x="604" y="240" width="78" height="32" rx="7" fill="#1A2330"/><text x="643" y="262" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">POST</text><rect x="700" y="250" width="197" height="12" rx="6" fill="#CBD3D1"/>
+<rect x="590" y="304" width="520" height="56" rx="10" fill="#F7F9F8" stroke="#CBD3D1" stroke-width="2"/><rect x="604" y="316" width="78" height="32" rx="7" fill="#F2C14E"/><text x="643" y="338" font-size="16" font-weight="800" fill="#1A2330" text-anchor="middle">PUT</text><rect x="700" y="326" width="244" height="12" rx="6" fill="#CBD3D1"/>
+<rect x="590" y="380" width="520" height="56" rx="10" fill="#F7F9F8" stroke="#CBD3D1" stroke-width="2"/><rect x="604" y="392" width="78" height="32" rx="7" fill="#B3261E"/><text x="643" y="414" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">DELETE</text><rect x="700" y="402" width="161" height="12" rx="6" fill="#CBD3D1"/>
+<rect x="590" y="456" width="520" height="56" rx="10" fill="#F7F9F8" stroke="#CBD3D1" stroke-width="2"/><rect x="604" y="468" width="78" height="32" rx="7" fill="#0E6E62"/><text x="643" y="490" font-size="16" font-weight="800" fill="#fff" text-anchor="middle">GET</text><rect x="700" y="478" width="208" height="12" rx="6" fill="#CBD3D1"/>
+<text x="850" y="530" font-size="18" fill="#4F5A68" text-anchor="middle">documentation shipped with the deployed API</text>
+</svg>
