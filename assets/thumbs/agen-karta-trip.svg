@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 608" role="img" aria-labelledby="title desc" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <title id="title">Community trips and activity cash management</title>
+  <desc id="desc">A generic community website with landscape gallery cards alongside a ledger of contributions, donations, and expenses.</desc>
+  <rect width="1200" height="608" fill="#E4E9E8"/>
+  <path d="M0 76H1200M0 152H1200M0 228H1200M0 304H1200M0 380H1200M0 456H1200M0 532H1200M100 0V608M200 0V608M300 0V608M400 0V608M500 0V608M600 0V608M700 0V608M800 0V608M900 0V608M1000 0V608M1100 0V608" fill="none" stroke="#CBD3D1"/>
+  <rect x="50" y="70" width="620" height="470" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+  <path d="M64 70H656Q670 70 670 84V114H50V84Q50 70 64 70" fill="#1A2330"/>
+  <g fill="#5A6677"><circle cx="76" cy="92" r="6"/><circle cx="96" cy="92" r="6"/><circle cx="116" cy="92" r="6"/></g>
+  <text x="374" y="98" font-size="17" fill="#CBD3D1" text-anchor="middle">COMMUNITY WEBSITE</text>
+  <rect x="74" y="138" width="572" height="206" rx="10" fill="#E3F1EF"/>
+  <circle cx="584" cy="184" r="23" fill="#F2C14E"/>
+  <path d="M420 310L500 208L560 278L600 236L646 310Z" fill="#0E6E62" opacity=".22"/>
+  <text x="100" y="205" font-size="34" font-weight="800" fill="#0E6E62">Agen Karta Trip</text>
+  <text x="100" y="243" font-size="22" fill="#4F5A68">Community &amp; shared trips</text>
+  <rect x="100" y="273" width="162" height="44" rx="8" fill="#0E6E62"/>
+  <text x="181" y="301" font-size="18" font-weight="700" fill="#fff" text-anchor="middle">View gallery</text>
+  <g fill="#E3F1EF" stroke="#CBD3D1" stroke-width="2">
+    <rect x="74" y="366" width="178" height="112" rx="10"/>
+    <rect x="271" y="366" width="178" height="112" rx="10"/>
+    <rect x="468" y="366" width="178" height="112" rx="10"/>
+  </g>
+  <g fill="#0E6E62" opacity=".5">
+    <path d="M92 458L134 398L166 434L194 414L234 458Z"/>
+    <path d="M289 458L331 398L363 434L391 414L431 458Z"/>
+    <path d="M486 458L528 398L560 434L588 414L628 458Z"/>
+  </g>
+  <g fill="#CBD3D1"><rect x="74" y="498" width="138" height="10" rx="5"/><rect x="271" y="498" width="138" height="10" rx="5"/><rect x="468" y="498" width="138" height="10" rx="5"/></g>
+  <rect x="710" y="70" width="440" height="470" rx="14" fill="#fff" stroke="#1A2330" stroke-width="3"/>
+  <text x="742" y="122" font-size="26" font-weight="800" fill="#1A2330">Activity cash ledger</text>
+  <rect x="738" y="146" width="384" height="80" rx="10" fill="#F2C14E"/>
+  <text x="760" y="180" font-size="20" font-weight="700" fill="#1A2330">One record per activity</text>
+  <text x="760" y="207" font-size="17" fill="#1A2330">Contributions, donations &amp; expenses</text>
+  <g stroke="#CBD3D1"><path d="M738 294H1122M738 354H1122M738 414H1122"/></g>
+  <g font-size="21" fill="#1A2330"><text x="752" y="274">Member contributions</text><text x="752" y="334">Donations</text><text x="752" y="394">Trip expenses</text></g>
+  <g font-size="26" font-weight="700" text-anchor="middle"><text x="1092" y="274" fill="#0E6E62">+</text><text x="1092" y="334" fill="#0E6E62">+</text><text x="1092" y="394" fill="#4F5A68">−</text></g>
+  <rect x="738" y="442" width="384" height="64" rx="10" fill="#E3F1EF"/>
+  <text x="930" y="482" font-size="22" font-weight="700" fill="#0E6E62" text-anchor="middle">Printable reports</text>
+  <text x="600" y="580" font-size="19" fill="#4F5A68" text-anchor="middle">Community profile · Trip gallery · Activity finances</text>
+</svg>

@@ -23,8 +23,7 @@
   <meta name="twitter:url" content="https://dandhi.my.id/">
   <link rel="canonical" href="https://dandhi.my.id/">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
-  <link rel="icon"
-    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E6E62'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='17' font-weight='800' text-anchor='middle' fill='white'%3ED%3C/text%3E%3C/svg%3E">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="style.css?v=9">
   <script>
     (function () {
@@ -138,14 +137,16 @@
           technical decisions, and responsibilities.</p>
       </div>
 
-      <p class="work-note">Client systems are private. The illustrations use generic examples; they contain no client
-        screenshots or source code.</p>
+      <p class="work-note">Most client systems are private; public websites are linked where available. The illustrations
+        use generic examples; they contain no client screenshots or source code.</p>
 
       <div class="filters" role="group" aria-label="Filter projects" hidden>
         <button type="button" class="filter" data-filter="featured" aria-pressed="true">Featured <i
             data-count="featured" aria-hidden="true"></i></button>
         <button type="button" class="filter" data-filter="all" aria-pressed="false">All <i data-count="all"
             aria-hidden="true"></i></button>
+        <button type="button" class="filter" data-filter="freelance" aria-pressed="false">Freelance <i
+            data-count="freelance" aria-hidden="true"></i></button>
         <button type="button" class="filter" data-filter="integration" aria-pressed="false">Integration <i
             data-count="integration" aria-hidden="true"></i></button>
         <button type="button" class="filter" data-filter="performance" aria-pressed="false">Performance <i
@@ -158,7 +159,7 @@
             aria-hidden="true"></i></button>
       </div>
 
-      <p id="filter-status" class="filter-status" role="status" aria-live="polite" aria-atomic="true">Showing all 12
+      <p id="filter-status" class="filter-status" role="status" aria-live="polite" aria-atomic="true">Showing all 13
         projects.</p>
       <p id="filter-empty" class="note" hidden>No projects in this category. Choose All to see the full selection.</p>
 
@@ -197,7 +198,7 @@
           </div>
         </article>
 
-        <article class="project" data-featured data-cats="integration performance"
+        <article class="project" data-featured data-cats="integration performance freelance"
           aria-labelledby="project-personnel-api">
           <div class="thumb ill"><img src="assets/thumbs/personnel-api.svg"
               alt="Illustration: two-way sync between several institutions, a REST API with Redis cache, and a government personnel system"
@@ -229,6 +230,36 @@
                 <dd>Production</dd>
               </dl>
               <p class="stack">Laravel · Redis · REST API · Two-way integration</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="project" data-featured data-cats="freelance" aria-labelledby="project-agen-karta-trip">
+          <div class="thumb ill"><img src="assets/thumbs/agen-karta-trip.svg"
+              alt="Illustration: a community trip website with an activity gallery and a cash ledger"
+              width="1200" height="608" loading="lazy"></div>
+          <div class="body">
+            <p class="meta"><span class="cat">Freelance</span><span class="tag">Live website</span></p>
+            <h3 id="project-agen-karta-trip">Agen Karta Trip (freelance)</h3>
+            <p>A community website and activity cash management application for Karang Taruna Genep, with a trip
+              gallery and records of contributions, donations, and expenses.</p>
+            <p class="related"><a href="https://agen-karta-trip.dandhi.my.id/" target="_blank" rel="noopener noreferrer">Visit
+                Agen Karta Trip <span aria-hidden="true">↗</span></a></p>
+            <details>
+              <summary id="details-agen-karta-trip" aria-labelledby="details-agen-karta-trip project-agen-karta-trip">See
+                details</summary>
+              <dl class="case-study">
+                <dt>Context</dt>
+                <dd>Karang Taruna Genep organizes community trips and keeps financial records for each activity.</dd>
+                <dt>Role &amp; scope</dt>
+                <dd>Freelance web developer.</dd>
+                <dt>Project features</dt>
+                <dd>A public community profile, activity information and photo gallery, alongside cash management for
+                  member contributions, donations, expenses and printable reports.</dd>
+                <dt>Project status</dt>
+                <dd>Live website</dd>
+              </dl>
+              <p class="stack">Next.js · Community website · Activity cash management</p>
             </details>
           </div>
         </article>
@@ -535,7 +566,7 @@
       </div>
       <div class="more-work" id="more-work" hidden>
         <p>More work across integrations, technical leadership, and production support.</p>
-        <button class="btn" id="show-all-projects" type="button" aria-controls="projects">View all 12 projects <span
+        <button class="btn" id="show-all-projects" type="button" aria-controls="projects">View all 13 projects <span
             aria-hidden="true">↓</span></button>
       </div>
       <noscript>
