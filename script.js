@@ -6,6 +6,27 @@ var cards = Array.prototype.slice.call(document.querySelectorAll('.project'));
 var buttons = Array.prototype.slice.call(document.querySelectorAll('.filter'));
 var filterStatus = document.getElementById('filter-status');
 var emptyState = document.getElementById('filter-empty');
+var themeToggle = document.getElementById('theme-toggle');
+
+function setTheme(theme, persist) {
+  document.documentElement.dataset.theme = theme;
+  themeToggle.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+  themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+  themeToggle.setAttribute('title', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+  themeToggle.querySelector('.theme-symbol').textContent = theme === 'dark' ? '☀' : '☾';
+  if (persist) {
+    try {
+      localStorage.setItem('portfolio-theme', theme);
+    } catch (error) {
+      // The toggle still works when browser storage is unavailable.
+    }
+  }
+}
+
+setTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light', false);
+themeToggle.addEventListener('click', function () {
+  setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark', true);
+});
 
 function matches(card, category) {
   return category === 'all' || card.dataset.cats.split(' ').indexOf(category) !== -1;
