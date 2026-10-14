@@ -25,7 +25,7 @@
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E6E62'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='17' font-weight='800' text-anchor='middle' fill='white'%3ED%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=8">
   <script>
     (function () {
       try {
@@ -66,13 +66,14 @@
 
   <header class="site-header">
     <div class="wrap bar">
-      <a class="brand" href="#top">Dandhi Trimakno<span>.</span></a>
+      <a class="brand" href="#top">Dandhi Trimakno</a>
       <nav aria-label="Main">
         <a href="#work">Work</a>
         <a href="#showcase">Showcase</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode"
+          aria-pressed="false" title="Switch to dark mode">
           <span class="theme-symbol" aria-hidden="true">☾</span>
         </button>
         <a class="btn small" href="assets/Dandhi_Trimakno_CV_2026_LEAD_EN_Oct2026.pdf"
@@ -83,39 +84,67 @@
 
   <main id="top" tabindex="-1">
 
-    <section class="hero wrap">
-      <p class="crumb">/portfolio</p>
-      <h1>Senior Backend Engineer focused on PHP, Laravel, APIs, and system integration.</h1>
-      <p class="lead">I am Dandhi Trimakno, a backend engineer with 5+ years in PHP and Laravel. I design APIs,
-        integrate external services, improve database and cache performance, and lead technical delivery on selected
-        projects.</p>
-      <p class="cta">
-        <a class="btn primary" href="#work">Browse the work</a>
-        <a class="btn" href="#contact">Get in touch</a>
-      </p>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="crumb">PHP &amp; Laravel Backend Developer · 5+ Years of Experience</p>
+        <h1 id="hero-title">Backend Engineer focused on PHP, Laravel, APIs, and system integration.</h1>
+        <p class="lead">I’m Dandhi Trimakno, a backend developer focused on REST APIs, system integrations, and
+          database performance. My work spans building new services, improving existing applications, and leading
+          technical delivery on selected projects.</p>
+        <p class="cta">
+          <a class="btn primary" href="#work">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="btn" href="assets/Dandhi_Trimakno_CV_2026_LEAD_EN_Oct2026.pdf"
+            download="Dandhi_Trimakno_CV_2026_LEAD_EN_Oct2026.pdf" type="application/pdf">Download CV</a>
+        </p>
+        <p class="availability">Based in Klaten, Indonesia · Open to remote &amp; hybrid roles</p>
+      </div>
+
+      <figure class="architecture" aria-labelledby="architecture-title">
+        <figcaption id="architecture-title">How I structure a Laravel API</figcaption>
+        <div class="request"><span class="request-method">POST</span><code>/api/v1/payments</code></div>
+        <ol class="request-flow">
+          <li><span class="step" aria-hidden="true">01</span>
+            <div><code>Form Request</code><span>Validate the input</span></div>
+          </li>
+          <li><span class="step" aria-hidden="true">02</span>
+            <div><code>Controller</code><span>Route the request</span></div>
+          </li>
+          <li class="business-layer"><span class="step" aria-hidden="true">03</span>
+            <div><code>Service</code><span>Apply the business rules</span></div>
+          </li>
+          <li><span class="step" aria-hidden="true">04</span>
+            <div><code>Repository</code><span>Access the data</span></div>
+          </li>
+        </ol>
+        <div class="data-layer"><span>MySQL / PostgreSQL</span><span>Redis cache</span></div>
+        <p class="architecture-note">Illustrative request flow · Validation, business logic, and data access kept
+          separate.</p>
+      </figure>
     </section>
 
-    <section class="wrap facts" aria-label="At a glance">
-      <div><strong>PHP &amp; Laravel</strong><span>Backend development and production support</span></div>
-      <div><strong>APIs &amp; integrations</strong><span>Payments, notifications and two-way system integration</span>
-      </div>
-      <div><strong>Database &amp; cache</strong><span>Query optimization, MySQL and Redis</span></div>
-      <div><strong>Project PIC</strong><span>Architecture, task planning and technical reviews on selected
-          projects</span></div>
+    <section class="wrap facts" aria-label="Experience at a glance">
+      <div><strong>30,000–60,000 users</strong><span>Approximate users of SIK, where I handle maintenance and database
+          optimization</span></div>
+      <div><strong>60–70 endpoints</strong><span>Built independently for a production personnel API with two-way system
+          integration</span></div>
+      <div><strong>Technical leadership since 2024</strong><span>Architecture, task planning, and technical reviews as
+          project PIC</span></div>
     </section>
 
     <section id="work" class="wrap">
       <div class="head">
         <h2>Selected work</h2>
-        <p class="sub">A selection of backend and web systems I have built, maintained, modernized, or led—from
-          production applications to ongoing projects.</p>
+        <p class="sub">From payment integrations to nationwide HR systems: a closer look at my work,
+          technical decisions, and responsibilities.</p>
       </div>
 
       <p class="work-note">Client systems are private. The illustrations use generic examples; they contain no client
         screenshots or source code.</p>
 
       <div class="filters" role="group" aria-label="Filter projects" hidden>
-        <button type="button" class="filter" data-filter="all" aria-pressed="true">All <i data-count="all"
+        <button type="button" class="filter" data-filter="featured" aria-pressed="true">Featured <i
+            data-count="featured" aria-hidden="true"></i></button>
+        <button type="button" class="filter" data-filter="all" aria-pressed="false">All <i data-count="all"
             aria-hidden="true"></i></button>
         <button type="button" class="filter" data-filter="integration" aria-pressed="false">Integration <i
             data-count="integration" aria-hidden="true"></i></button>
@@ -135,14 +164,15 @@
 
       <div class="projects" id="projects">
 
-        <article class="project" data-cats="performance maintenance" aria-labelledby="project-sik">
+        <article class="project" data-featured data-cats="performance maintenance" aria-labelledby="project-sik">
           <div class="thumb ill"><img src="assets/thumbs/sik.svg"
               alt="Illustration: an employee records table, reported system scale, and a Redis cache in front of optimized queries"
               width="1200" height="608" loading="lazy"></div>
           <div class="body">
             <p class="meta"><span class="cat">Performance</span><span class="tag">Maintenance</span></p>
             <h3 id="project-sik">SIK, personnel information system</h3>
-            <p>Database and query optimization, Redis caching and production support for a nationwide HR system.</p>
+            <p>Query optimization, Redis caching, and production support for a nationwide HR system with approximately
+              30,000–60,000 users.</p>
             <details>
               <summary id="details-sik" aria-labelledby="details-sik project-sik">See details</summary>
               <dl class="case-study">
@@ -163,19 +193,20 @@
                 <dd>Maintenance</dd>
               </dl>
               <p class="stack">Redis · PHPRedis · MySQL · Query optimization</p>
-              <p class="related">Related showcase: <strong>laravel-performance-lab</strong></p>
             </details>
           </div>
         </article>
 
-        <article class="project" data-cats="integration performance" aria-labelledby="project-personnel-api">
+        <article class="project" data-featured data-cats="integration performance"
+          aria-labelledby="project-personnel-api">
           <div class="thumb ill"><img src="assets/thumbs/personnel-api.svg"
               alt="Illustration: two-way sync between several institutions, a REST API with Redis cache, and a government personnel system"
               width="1200" height="608" loading="lazy"></div>
           <div class="body">
             <p class="meta"><span class="cat">Integration</span><span class="tag">Production</span></p>
             <h3 id="project-personnel-api">Personnel system API (freelance)</h3>
-            <p>A layered Laravel REST API with two-way government system integration and Redis caching.</p>
+            <p>Independently built approximately 60–70 production endpoints for two-way government system integration,
+              with Redis caching.</p>
             <details>
               <summary id="details-personnel-api" aria-labelledby="details-personnel-api project-personnel-api">See
                 details</summary>
@@ -198,12 +229,11 @@
                 <dd>Production</dd>
               </dl>
               <p class="stack">Laravel · Redis · REST API · Two-way integration</p>
-              <p class="related">Related showcase: <strong>laravel-integration-hub</strong></p>
             </details>
           </div>
         </article>
 
-        <article class="project" data-cats="integration maintenance" aria-labelledby="project-simanawa">
+        <article class="project" data-featured data-cats="integration maintenance" aria-labelledby="project-simanawa">
           <div class="thumb ill"><img src="assets/thumbs/simanawa.svg"
               alt="Illustration: a mobile app, a REST API and Xendit payments with webhook callbacks, plus a Firebase push notification"
               width="1200" height="608" loading="lazy"></div>
@@ -233,19 +263,20 @@
                 <dd>Maintenance</dd>
               </dl>
               <p class="stack">PHP · CodeIgniter · Xendit · FCM</p>
-              <p class="related">Related showcase: <strong>laravel-payment-api</strong></p>
+              <p class="related">Showcase in progress: <a href="#showcase">laravel-payment-api</a></p>
             </details>
           </div>
         </article>
 
-        <article class="project" data-cats="lead" aria-labelledby="project-vms">
+        <article class="project" data-featured data-cats="lead" aria-labelledby="project-vms">
           <div class="thumb ill"><img src="assets/thumbs/vms.svg"
               alt="Illustration: a vendor workflow from registration through technical review to approval, owned by the project PIC"
               width="1200" height="608" loading="lazy"></div>
           <div class="body">
             <p class="meta"><span class="cat">Led as PIC</span><span class="tag">Production</span></p>
             <h3 id="project-vms">VMS, vendor management system</h3>
-            <p>Production system for a national hospital and a bank, delivered in about three to four months.</p>
+            <p>Led a two-developer team to deliver a vendor management system in about three to four months, introducing
+              automated testing.</p>
             <details>
               <summary id="details-vms" aria-labelledby="details-vms project-vms">See details</summary>
               <dl class="case-study">
@@ -266,7 +297,69 @@
                 <dd>Production</dd>
               </dl>
               <p class="stack">Laravel · PHPUnit · Pest</p>
-              <p class="related">Related showcase: <strong>laravel-vendor-approval</strong></p>
+            </details>
+          </div>
+        </article>
+
+        <article class="project" data-featured data-cats="modernization lead" aria-labelledby="project-lha">
+          <div class="thumb ill"><img src="assets/thumbs/lha.svg"
+              alt="Illustration: the Controller, Form Request, Service and Repository layers next to a Swagger/OpenAPI endpoint list"
+              width="1200" height="608" loading="lazy"></div>
+          <div class="body">
+            <p class="meta"><span class="cat">Modernization</span><span class="tag">Delivered</span></p>
+            <h3 id="project-lha">LHA, API modernization</h3>
+            <p>Built the web application on my own in 2024, then rebuilt its API on Laravel 13 and PHP 8.5 in 2026.</p>
+            <details>
+              <summary id="details-lha" aria-labelledby="details-lha project-lha">See details</summary>
+              <dl class="case-study">
+                <dt>Context</dt>
+                <dd>A web application developed in 2024, followed by API modernization in 2026.</dd>
+                <dt>Role &amp; scope</dt>
+                <dd>Developer / project PIC. Built the web application independently and completed the API modernization
+                  and planned migration work.</dd>
+                <dt>Technical approach</dt>
+                <dd>Laravel 13 and PHP 8.5, layered into Controller, Form Request, Service and Repository.</dd>
+                <dt>Key decisions</dt>
+                <dd>Separated validation, business logic and data access. Shipped Swagger/OpenAPI documentation as the
+                  contract for API consumers.</dd>
+                <dt>Work delivered</dt>
+                <dd>The deployed API and its documentation; the planned API and migration work was completed in 2026.
+                </dd>
+                <dt>Project status</dt>
+                <dd>Delivered</dd>
+              </dl>
+              <p class="stack">Laravel 13 · PHP 8.5 · Swagger/OpenAPI</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="project" data-featured data-cats="modernization" aria-labelledby="project-dnp">
+          <div class="thumb ill"><img src="assets/thumbs/dnp.svg"
+              alt="Illustration: a legacy codebase migrated to a layered Laravel 13 structure with reusable base flows"
+              width="1200" height="608" loading="lazy"></div>
+          <div class="body">
+            <p class="meta"><span class="cat">Modernization</span><span class="tag">Production</span></p>
+            <h3 id="project-dnp">DNP, platform modernization</h3>
+            <p>Modernized a Laravel platform in a team of four to five, creating reusable services and shared
+              implementation patterns.</p>
+            <details>
+              <summary id="details-dnp" aria-labelledby="details-dnp project-dnp">See details</summary>
+              <dl class="case-study">
+                <dt>Context</dt>
+                <dd>A complex platform modernization using Laravel 13 and PHP 8.4.</dd>
+                <dt>Role &amp; scope</dt>
+                <dd>Full-stack developer and team member in a team of four to five.</dd>
+                <dt>Technical approach</dt>
+                <dd>Migration work, dashboard development, flow changes and Google Translate integration.</dd>
+                <dt>Key decisions</dt>
+                <dd>Created reusable service abstractions, base flows and helpers for consistent implementations across
+                  the team.</dd>
+                <dt>Work contributed</dt>
+                <dd>Modernization work and shared implementation patterns for other developers.</dd>
+                <dt>Project status</dt>
+                <dd>Production</dd>
+              </dl>
+              <p class="stack">Laravel 13 · PHP 8.4 · Service abstractions</p>
             </details>
           </div>
         </article>
@@ -318,71 +411,7 @@
                 <dd>Production</dd>
               </dl>
               <p class="stack">REST API · FCM</p>
-              <p class="related">Related showcase: <strong>laravel-payment-api</strong> (notifications)</p>
-            </details>
-          </div>
-        </article>
-
-        <article class="project" data-cats="modernization lead" aria-labelledby="project-lha">
-          <div class="thumb ill"><img src="assets/thumbs/lha.svg"
-              alt="Illustration: the Controller, Form Request, Service and Repository layers next to a Swagger/OpenAPI endpoint list"
-              width="1200" height="608" loading="lazy"></div>
-          <div class="body">
-            <p class="meta"><span class="cat">Modernization</span><span class="tag">Delivered</span></p>
-            <h3 id="project-lha">LHA, API modernization</h3>
-            <p>Built the web application on my own in 2024, then rebuilt its API on Laravel 13 and PHP 8.5 in 2026.</p>
-            <details>
-              <summary id="details-lha" aria-labelledby="details-lha project-lha">See details</summary>
-              <dl class="case-study">
-                <dt>Context</dt>
-                <dd>A web application developed in 2024, followed by API modernization in 2026.</dd>
-                <dt>Role &amp; scope</dt>
-                <dd>Developer / project PIC. Built the web application independently and completed the API modernization
-                  and planned migration work.</dd>
-                <dt>Technical approach</dt>
-                <dd>Laravel 13 and PHP 8.5, layered into Controller, Form Request, Service and Repository.</dd>
-                <dt>Key decisions</dt>
-                <dd>Separated validation, business logic and data access. Shipped Swagger/OpenAPI documentation as the
-                  contract for API consumers.</dd>
-                <dt>Work delivered</dt>
-                <dd>The deployed API and its documentation; the planned API and migration work was completed in 2026.
-                </dd>
-                <dt>Project status</dt>
-                <dd>Delivered</dd>
-              </dl>
-              <p class="stack">Laravel 13 · PHP 8.5 · Swagger/OpenAPI</p>
-              <p class="related">Related showcase: <strong>laravel-layered-kit</strong></p>
-            </details>
-          </div>
-        </article>
-
-        <article class="project" data-cats="modernization" aria-labelledby="project-dnp">
-          <div class="thumb ill"><img src="assets/thumbs/dnp.svg"
-              alt="Illustration: a legacy codebase migrated to a layered Laravel 13 structure with reusable base flows"
-              width="1200" height="608" loading="lazy"></div>
-          <div class="body">
-            <p class="meta"><span class="cat">Modernization</span><span class="tag">Production</span></p>
-            <h3 id="project-dnp">DNP, platform modernization</h3>
-            <p>A complex modernization on Laravel 13 and PHP 8.4, as a full-stack team member.</p>
-            <details>
-              <summary id="details-dnp" aria-labelledby="details-dnp project-dnp">See details</summary>
-              <dl class="case-study">
-                <dt>Context</dt>
-                <dd>A complex platform modernization using Laravel 13 and PHP 8.4.</dd>
-                <dt>Role &amp; scope</dt>
-                <dd>Full-stack developer and team member in a team of four to five.</dd>
-                <dt>Technical approach</dt>
-                <dd>Migration work, dashboard development, flow changes and Google Translate integration.</dd>
-                <dt>Key decisions</dt>
-                <dd>Created reusable service abstractions, base flows and helpers for consistent implementations across
-                  the team.</dd>
-                <dt>Work contributed</dt>
-                <dd>Modernization work and shared implementation patterns for other developers.</dd>
-                <dt>Project status</dt>
-                <dd>Production</dd>
-              </dl>
-              <p class="stack">Laravel 13 · PHP 8.4 · Service abstractions</p>
-              <p class="related">Related showcase: <strong>laravel-layered-kit</strong></p>
+              <p class="related">Showcase in progress: <a href="#showcase">laravel-payment-api</a></p>
             </details>
           </div>
         </article>
@@ -412,7 +441,6 @@
                 <dd>Production</dd>
               </dl>
               <p class="stack">Laravel · Database design</p>
-              <p class="related">Related showcase: <strong>laravel-vendor-approval</strong></p>
             </details>
           </div>
         </article>
@@ -441,7 +469,6 @@
                 <dd>Production</dd>
               </dl>
               <p class="stack">Laravel · Dashboards</p>
-              <p class="related">Related showcase: <strong>laravel-modular-portal</strong></p>
             </details>
           </div>
         </article>
@@ -471,7 +498,6 @@
                 <dd>In approval</dd>
               </dl>
               <p class="stack">Laravel 12 · PHP 8.4</p>
-              <p class="related">Related showcase: <strong>laravel-modular-portal</strong></p>
             </details>
           </div>
         </article>
@@ -499,11 +525,15 @@
                 <dd>On hold</dd>
               </dl>
               <p class="stack">Laravel 12 · Modular architecture · REST API</p>
-              <p class="related">Related showcase: <strong>laravel-modular-portal</strong></p>
             </details>
           </div>
         </article>
 
+      </div>
+      <div class="more-work" id="more-work" hidden>
+        <p>More work across integrations, technical leadership, and production support.</p>
+        <button class="btn" id="show-all-projects" type="button" aria-controls="projects">View all 12 projects <span
+            aria-hidden="true">↓</span></button>
       </div>
       <noscript>
         <p class="sub">Filters need JavaScript. All projects are shown above.</p>
@@ -511,47 +541,28 @@
     </section>
 
     <section id="showcase" class="wrap">
-      <div class="head">
-        <h2>Code you can read and run</h2>
-        <p class="sub">Client code stays private. I am rebuilding these patterns in public repositories, one at a time,
-          with tests and CI.</p>
+      <div class="showcase-layout">
+        <div class="showcase-copy">
+          <p class="crumb">Beyond client work</p>
+          <h2>A closer look at the code.</h2>
+          <p class="sub">I am building a standalone Laravel showcase based on patterns from my payment and
+            notification work.</p>
+          <p class="showcase-note">Built from scratch with a fictional domain. Client code and data stay private.</p>
+        </div>
+        <article class="showcase-card" aria-labelledby="showcase-name">
+          <span class="st progress">In progress</span>
+          <h3 id="showcase-name">laravel-payment-api</h3>
+          <p>A payment and notification API. The planned scope includes:</p>
+          <ul>
+            <li>Payment flows and webhook verification</li>
+            <li>Retries and push notifications behind an interface</li>
+            <li>Automated tests and CI</li>
+          </ul>
+          <p class="showcase-status">Under development. A runnable release is not available yet.</p>
+          <a class="showcase-link" href="https://github.com/dandhitrimakno">Visit my GitHub profile <span
+              aria-hidden="true">↗</span></a>
+        </article>
       </div>
-
-      <div class="rows">
-        <div class="row">
-          <h3>laravel-payment-api</h3>
-          <p>Payment flow with signed webhooks, retries, and push notifications behind an interface.</p><span
-            class="st progress">In progress</span>
-        </div>
-        <div class="row">
-          <h3>laravel-performance-lab</h3>
-          <p>Indexing, query changes and caching on a large dataset, with before and after measurements.</p><span
-            class="st planned">Planned</span>
-        </div>
-        <div class="row">
-          <h3>laravel-integration-hub</h3>
-          <p>Resilient two-way sync with tenant isolation for several institutions.</p><span
-            class="st planned">Planned</span>
-        </div>
-        <div class="row">
-          <h3>laravel-vendor-approval</h3>
-          <p>Approval workflow with roles and an audit trail.</p><span class="st planned">Planned</span>
-        </div>
-        <div class="row">
-          <h3>laravel-layered-kit</h3>
-          <p>Reusable layered abstractions, generators and a legacy migration approach.</p><span
-            class="st planned">Planned</span>
-        </div>
-        <div class="row">
-          <h3>laravel-modular-portal</h3>
-          <p>Modular monolith with a public site, admin dashboards and an API.</p><span
-            class="st planned">Planned</span>
-        </div>
-      </div>
-
-      <p class="note">Every repo is built from scratch with a fictional domain to show patterns I use in production.
-        None of them contains employer or client code, names, schemas, data or screenshots. Benchmark numbers come from
-        fictional data on one machine.</p>
     </section>
 
     <section id="experience" class="wrap">
@@ -619,7 +630,9 @@
         technical leadership. Email is the fastest way to reach me.</p>
       <a class="mail" href="mailto:dandhitrimakno@gmail.com">dandhitrimakno@gmail.com</a>
       <ul class="links">
-        <li><a href="https://wa.me/6287734900685?text=Hi%20Dandhi%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20backend%20opportunity." target="_blank" rel="noopener">WhatsApp: +62 877 3490 0685</a></li>
+        <li><a
+            href="https://wa.me/6287734900685?text=Hi%20Dandhi%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20backend%20opportunity."
+            target="_blank" rel="noopener">WhatsApp: +62 877 3490 0685</a></li>
         <li><a href="https://www.linkedin.com/in/dandhi-trimakno/">LinkedIn</a></li>
         <li><a href="https://github.com/dandhitrimakno">GitHub</a></li>
       </ul>
@@ -634,11 +647,11 @@
   <footer class="site-footer">
     <div class="wrap">
       <p>© <span id="year">2026</span> Dandhi Trimakno · Backend Engineer, PHP and Laravel</p>
-      <p>Showcase repos contain no employer or client code.</p>
+      <p>Project illustrations use generic examples. Client code stays private.</p>
     </div>
   </footer>
 
-  <script src="script.js?v=1" defer></script>
+  <script src="script.js?v=2" defer></script>
 </body>
 
 </html>
