@@ -163,7 +163,8 @@ details li { margin-bottom: 0.35rem; }
 
 /* Showcase in development */
 .showcase-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 3.5rem; align-items: center; padding: 2rem; background: var(--bg-2); border: 1px solid var(--border); border-radius: 16px; }
-.showcase-copy, .showcase-card { min-width: 0; }
+.showcase-copy, .showcase-card, .showcase-cards { min-width: 0; }
+.showcase-cards { display: grid; gap: 1.25rem; }
 .showcase-copy h2 { max-width: 12ch; }
 .showcase-copy .sub { margin-top: 1.25rem; }
 .showcase-note { color: var(--muted); font-size: 0.85rem; margin: 1.25rem 0 0; }
